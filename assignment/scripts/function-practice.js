@@ -45,7 +45,7 @@ function isPositive( number ) {
     return 'The number is not positive', false;
   }
 }
-console.log('is your number positive?', isPositive(-2));
+console.log('is your number positive?', isPositive(-2)); //I did this as a test before I read ths test that was provided 
 
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
@@ -73,7 +73,7 @@ function getLast() {
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 function find( value, array ){
   //while check one by one
-  let value=4;
+  let val=4;
   while(i>array.length){
     if (value==array[0]){
       console.log("4");
@@ -94,8 +94,8 @@ function find( value, array ){
 function isFirstLetter(letter, string) {
 
 }
-console.log( 'isFirstLetter - should say true', isFirstLetter('a', 'apple') );
-console.log( 'isFirstLetter - should say false', isFirstLetter('z', 'apple') );
+//console.log( 'isFirstLetter - should say true', isFirstLetter('a', 'apple') );
+//console.log( 'isFirstLetter - should say false', isFirstLetter('z', 'apple') );
 
 // 9. Function to return the sum of all numbers in an array
 function sumAll( ) {
